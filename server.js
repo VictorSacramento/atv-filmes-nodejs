@@ -9,7 +9,7 @@ const app = express();
 
 // Configura o EJS como um motor de visualização
 app.set('view engine', 'ejs');
-app.set('views', './views');s
+app.set('views', './views');
 
 //Criando rota para listar todos os livros
 app.get('/filmes',filmeController.listarFilmes)
